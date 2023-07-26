@@ -1,0 +1,19 @@
+@import url(_variables.scss);
+body {
+  background-color: #85b3f8;
+  color: white; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.filtro {
+  text-align: center; }
+
+.filtro__caja {
+  width: 300px; }
+
+.filtro__boton {
+  width: 100px;
+  margin-top: 5px; }
