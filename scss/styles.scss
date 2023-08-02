@@ -1,8 +1,9 @@
-@import url(_variables.scss);
+@import "variables.scss";
 
 body{
     background-color: rgb(133, 179, 248);
-    color: white;
+    color: $letras-blancas;
+    text-align: center;
 }
 
 header{
@@ -17,11 +18,54 @@ header{
 
 .filtro__caja{
     width: 300px;
-    
-    
+    border: $borde-linea;
+    border-radius: $borde-redondeado;
 }
 
 .filtro__boton{
     width: 100px;
     margin-top: 5px;
+    border: $borde-linea;
+    border-radius: $borde-redondeado;
+}
+
+.cuadro{
+    width: 300px;
+    margin-top: 10px;
+    color: $letras-blancas;
+}
+
+.linea{
+    background-color: rgb(47, 136, 209);
+    color: $letras-blancas;
+    padding: 5px;
+    border-radius: $borde-redondeado;
+    border: $borde-linea;
+}
+
+.lineaTurnos{
+    background-color: rgb(73, 132, 199);
+    border-radius: $borde-redondeado;
+    border: $borde-linea;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.botonReserva{
+    border-radius: $borde-redondeado;
+}
+.col__dias{
+    margin-top: 8px;
+}
+
+.verReserva{
+    background-color:rgb(47, 136, 209) ;
+    width: 150px;
+    border-radius: $borde-redondeado;
+    border: $borde-linea;
+    color: $letras-blancas;
+    padding: 5px;
+    margin-top: 15px;
+
 }

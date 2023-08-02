@@ -1,7 +1,7 @@
-@import url(_variables.scss);
 body {
   background-color: #85b3f8;
-  color: white; }
+  color: white;
+  text-align: center; }
 
 header {
   display: flex;
@@ -12,8 +12,46 @@ header {
   text-align: center; }
 
 .filtro__caja {
-  width: 300px; }
+  width: 300px;
+  border: solid 3px black;
+  border-radius: 20px; }
 
 .filtro__boton {
   width: 100px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  border: solid 3px black;
+  border-radius: 20px; }
+
+.cuadro {
+  width: 300px;
+  margin-top: 10px;
+  color: white; }
+
+.linea {
+  background-color: #2f88d1;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  border: solid 3px black; }
+
+.lineaTurnos {
+  background-color: #4984c7;
+  border-radius: 20px;
+  border: solid 3px black;
+  margin: 5px;
+  padding: 5px; }
+
+.botonReserva {
+  border-radius: 20px; }
+
+.col__dias {
+  margin-top: 8px; }
+
+.verReserva {
+  background-color: #2f88d1;
+  width: 150px;
+  border-radius: 20px;
+  border: solid 3px black;
+  color: white;
+  padding: 5px;
+  margin-top: 15px; }
