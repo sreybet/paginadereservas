@@ -12,37 +12,42 @@
 <body>
     <header>
         <h1>www.reservatucancha.com</h1>
-        <h2>TURNOS DISPONIBLES</h2>
-   </header>
-   <main>
-    <div class="filtro">
-        <input class="filtro__caja" type="search" placeholder="Ingrese el dia para filtrar los turnos">
-        <input class="filtro__boton" type="submit" value="Filtrar">
-    </div>
-    <div class="container-sm text-center cuadro">
+        <h2>MIS TURNOS RESERVADOS</h2>
+    </header>
+    <main>
+       <div class="container text-center cuadro ">
         <div class="row align-items-start linea">
             <div class="col">
-                Dias
+                Dias y hora
             </div>
             <div class="col">
-                Horarios
+                Precio
+            </div>
+            <div class="col">
+                Eliminar
             </div>
         </div>
-        <div class="row align-items-start lineaTurnos">
+        <div  class="row align-items-start lineaTurnos">
             <div class="col">
-                <p class="col__dias">Lunes</p>
+                Lunes 19:00
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-outline-light botonReserva">19:00</button>
-            </div>  
+                $ 1500
+            </div>
+            <div class="col">
+                ❌
+            </div>
         </div>
-    </div>
-    <div>
-        <button class="botones"><a href="reservas.html">Ver mi reserva 💾</a></button>
-    </div>
-   </main>
-   <footer>
-
-   </footer>
+        <div id="cuentaReservas"></div>
+       </div> 
+       <div>
+        <button class="botones" id="" >Confirmar ✔</button>
+        <button class="botones" id="">Borrar 🗑</button>
+      </div>
+      <div>
+        <button class="botones" id="volverInicio">🏠</button>
+      </div> 
+    </main>
+    <footer></footer>
 </body>
 </html>
