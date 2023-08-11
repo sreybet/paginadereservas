@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./javascript/toast.js"></script>
+    <script src="./javascript/turnos.js"></script>
+    <script defer src="./javascript/index.js"></script>
     <title>www.reservatucancha.com</title>
 </head>
 <body>
@@ -16,29 +20,29 @@
    </header>
    <main>
     <div class="filtro">
-        <input class="filtro__caja" type="search" placeholder="Ingrese el dia para filtrar los turnos">
-        <input class="filtro__boton" type="submit" value="Filtrar">
+        <input class="filtro__caja" id="cajaFiltro"type="search" placeholder="Ingrese el dia para filtrar los turnos">
+        <input class="filtro__boton" id="botonFiltro" type="submit" value="Filtrar">
     </div>
     <div class="container-sm text-center cuadro">
         <div class="row align-items-start linea">
             <div class="col">
-                Dias
+                Día
             </div>
             <div class="col">
-                Horarios
+                Hora
             </div>
+            <div class="col">
+                Reservar
+            </div>
+            
         </div>
-        <div class="row align-items-start lineaTurnos">
-            <div class="col">
-                <p class="col__dias">Lunes</p>
-            </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-outline-light botonReserva">19:00</button>
-            </div>  
+        <div id="grilla">
+            <!-- contenedor de turnos -->
         </div>
+        
     </div>
     <div>
-        <button class="botones"><a href="reservas.html">Ver mi reserva 💾</a></button>
+        <button class="botones" id="verReservas">Ver mi reserva 💾</button>
     </div>
    </main>
    <footer>

@@ -14,13 +14,21 @@ header {
 .filtro__caja {
   width: 300px;
   border: solid 3px black;
-  border-radius: 20px; }
+  border-radius: 20px;
+  background-color: whitesmoke; }
+
+.filtro__caja::placeholder {
+  color: black;
+  text-align: center;
+  font: bolder; }
 
 .filtro__boton {
   width: 100px;
   margin-top: 5px;
   border: solid 3px black;
-  border-radius: 20px; }
+  border-radius: 20px;
+  color: white;
+  background-color: #2f88d1; }
 
 .cuadro {
   width: 350px;

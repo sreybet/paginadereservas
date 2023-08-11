@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./javascript/toast.js"></script>
+    <script src="./javascript/turnos.js"></script>
+    <script defer src="./javascript/reservas.js"></script>
     <title>www.reservatucancha.com</title>
 </head>
 <body>
@@ -27,22 +31,15 @@
                 Eliminar
             </div>
         </div>
-        <div  class="row align-items-start lineaTurnos">
-            <div class="col">
-                Lunes 19:00
-            </div>
-            <div class="col">
-                $ 1500
-            </div>
-            <div class="col">
-                ❌
-            </div>
+        <div id="grillaReservas">
+            <!-- contenedor de reservas -->  
         </div>
+        
         <div id="cuentaReservas"></div>
        </div> 
        <div>
-        <button class="botones" id="" >Confirmar ✔</button>
-        <button class="botones" id="">Borrar 🗑</button>
+        <button class="botones" id="confirmarReservas" >Confirmar ✔</button>
+        <button class="botones" id="eliminarReservas">Borrar 🗑</button>
       </div>
       <div>
         <button class="botones" id="volverInicio">🏠</button>

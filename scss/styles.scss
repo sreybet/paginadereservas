@@ -20,6 +20,13 @@ header{
     width: 300px;
     border: $borde-linea;
     border-radius: $borde-redondeado;
+    background-color: whitesmoke;
+}
+
+.filtro__caja::placeholder{
+    color: black;
+    text-align: center;
+    font: bolder;
 }
 
 .filtro__boton{
@@ -27,6 +34,8 @@ header{
     margin-top: 5px;
     border: $borde-linea;
     border-radius: $borde-redondeado;
+    color: white;
+    background-color: rgb(47, 136, 209);
 }
 
 .cuadro{

@@ -1,0 +1,12 @@
+[
+    {"valor": 1, "dia": "Lunes", "codigo": 1, "horario": "19:00 hs"},
+    {"valor": 1, "dia": "Lunes", "codigo": 2, "horario": "21:00 hs"},
+    {"valor": 1, "dia": "Martes", "codigo": 3, "horario": "19:00 hs"},
+    {"valor": 1, "dia": "Martes", "codigo": 4, "horario": "21:00 hs"},
+    {"valor": 1, "dia": "Miercoles", "codigo": 5, "horario": "19:00 hs"},
+    {"valor": 1, "dia": "Miercoles", "codigo": 6, "horario": "21:00 hs"},
+    {"valor": 1, "dia": "Jueves", "codigo": 7, "horario": "19:00 hs"},
+    {"valor": 1, "dia": "Jueves", "codigo": 8, "horario": "21:00 hs"},
+    {"valor": 1, "dia": "Viernes", "codigo": 9, "horario": "19:00 hs"},
+    {"valor": 1, "dia": "Viernes", "codigo": 10, "horario": "21:00 hs"}
+]
